@@ -42,9 +42,4 @@ Based on the t-test performed on all cars, and indivudally for each lot (1,2, an
 
 ## Study Design: MechaCar vs Competition.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+A statistical study that can quantify how the MechaCar performs against the competition. My study would focus on cost, and overall fuel efficieny (MPG). With rising inflation and volatile fuel prices, the overall cost of the vehicle and its MPG are the two metrics that I would test as they would be the most relevent in our current market. The null hypothesis is that the overall vehicle cost is dependant on the overall MPG. The alternative hypothese is that they are not correlated. I would choose the Multiple Linear Regression test as we would be able to calculate the varince in the dependent variable (overall cost) for the independent variable (MPG). Once we determine our varince, we would be able to apply it to the competition and determine possible overall vehcile costs. THe data that I would need for this test is data for at least 100 cars, 50 that are mechaCar and 50 which are the competion. Datasets would at a minimum contain overall vehicle costs, city and highway MPG so the mean can be calcuated.
