@@ -9,6 +9,6 @@ RStudio
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   * The variables that provided non-random amount of variance to the mpg values are vehicle_length and ground_clearance 
 * Is the slope of the linear model considered to be zero? Why or why not?
-  * The p-value of the linear regression is less than 0.05, therefore the slope is not zero 
+  * The slope is not zero as the multiple r-squared value is roughly 0.71, which indicates a strong correlation.
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-  * The R-squared value is roughly 71%, which tells us that for about ~71% of the time, the model will predict mpg values correctly.
+  * It is difficult to say whether the linear model predicts the mpg effectively as there are several variables that did not contribute to the non-random amount of variance to the mpg values. Those values are: vehicle_weight, spoiler_angle, ground_clearance and awd. If we could get additional data that contributes to the mpg, we might be able to predict the linear model with more effectivness.
