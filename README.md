@@ -36,3 +36,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 <img src="https://user-images.githubusercontent.com/107224632/191886203-5353fd68-7688-4463-91ac-988f1e783ee7.png" width=50% height=50%><br />
 *Figure 6: t-test on lot 3 cars*<br />
+
+Based on the t-test performed on all cars, and indivudally for each lot (1,2, and 3) we can see that only lot 3 is the group that is statistically different from the population mean of 1,500 pounds per square inch. We can determine this by looking at the figures 3 -6, with all except lot 3 coming in with a p-value higher than 0.05. Lot 3 has a p-value of 0.014168 and comes in with a 95 percent confidence interval below 1500 with a mean of x also lower than 1500.
+
+
+## Study Design: MechaCar vs Competition.
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
